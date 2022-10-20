@@ -18,19 +18,19 @@ npx hardhat help
 
 Full stack NFT marketplace on Ethereum with Solidity, Polygon, IPFS, Next.js, Ethers.js, and Hardhat. User can create a NFT, list it on Marketplace and sell it.
 
-To run this project locally, follow these steps.
+## To run this project locally, follow these steps.
 
 Clone the project locally, change into the directory, and install the dependencies:
 
-# install using NPM or Yarn
+### install using NPM
 npm install
 
-Start the local Hardhat node
+### Start the local Hardhat node
 npx hardhat node
 
-With the network running, deploy the contracts to the local network in a separate terminal window
+### With the network running, deploy the contracts to the local network in a separate terminal window
 npx hardhat run scripts/deploy.js --network localhost
 
-Start the app
+### Start the app
 
 npm run dev
